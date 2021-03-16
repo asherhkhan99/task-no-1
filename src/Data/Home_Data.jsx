@@ -36,6 +36,31 @@ const Heading_data = [
         title1:"Our ",
         title2:"Team",
         headingcontent:"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+        title1:"Our",
+        title2:"Pricing",
+        headingcontent:"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
     }
+
 ]
-export {Sdata, Heading_data}
+//pricingdata
+const Pdata = [
+    {
+        heading : "Personal",
+        price : "9$"
+    },
+    {
+        heading : "Ultimate",
+        price : "199$"
+    },
+    {
+        heading : "Business",
+        price : "99$"
+    }
+
+]
+
+
+export {Sdata, Heading_data, Pdata}
