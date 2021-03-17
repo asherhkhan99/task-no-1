@@ -5,7 +5,7 @@ import React from 'react';
 function Pricingcard(props){
     return(
         <>
-                    <div className=" col-lg-4 col-md-4 col-sm-12 col-xs-12"  >
+                    <div className=" col-lg-4 col-md-4 col-sm-12 col-xs-12 "  >
                         <div className={props.card} >
                         <div className="plan-title">
                             <h4>{props.heading}</h4>
