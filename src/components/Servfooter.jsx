@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../img/logo.png'
+import img from '../img/logo-3.png'
 
 function Servfooter ()  {
     return(
@@ -19,8 +19,8 @@ function Servfooter ()  {
                     <div className="col-lg-2 col-md-3 col-sm-3 col-xs-12 column">
                     <h5>Navigation</h5>
                     <div className="navigations">
-                        <ul>
-                        <li><a href="index.html" title="Home"> Home</a></li>
+                        <ul  >
+                        <li ><a href="index.html" title="Home" > Home</a></li>
                         <li><a href="about-us.html" title="About Us"> About Us</a></li>
                         <li><a href="services.html" title="Services"> Services</a></li>
                         <li><a href="blog-2-column.html" title="Blog"> Blog</a></li>
@@ -71,7 +71,7 @@ function Servfooter ()  {
                             <input type="text" placeholder="Email" />
                             </div>
                             <div className="col-md-4">
-                            <button type="Submit">Subscribe</button>
+                            <button type="Submit" style={{backgroundColor:"#2285d9"}}>Subscribe</button>
                             </div>
                         </div>
                         </form>

@@ -1133,27 +1133,32 @@ footer .footer_about_content a{
 footer .navigations{
      padding: 0px;
      margin: 0px;
-}
+     
+} 
 footer .navigations ul{
      list-style:none;
      padding: 0px;
      margin: 0px;
      margin-top:20px;
+     
 }
 footer .navigations ul li{
      padding:0px 0 15px 0;
      padding-left: 15px;
+    
 }
 footer .navigations ul li::before{
-     content:url('../../img/footer_nav_arrow.png');
+     content:url('../../img/fast-forward.png');
      left:-15px;
      position: relative;
      transition: all 0.1s ease;
+     
 }
 footer .navigations ul li:hover::before{
-     content:url('../../img/footer_nav_arrow.png');
+     content:url('../../img/fast-forward.png');
      left:-10px;
      position: relative;
+     
 }
 footer .navigations ul li a{
      color: #262626;
