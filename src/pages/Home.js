@@ -12,7 +12,8 @@ import Headerleft from '../components/Headers/Headerleft'
 import Headerdetail from '../components/Headers/Headerdetail'
 
 import Contactus2 from '../pages/Contactus2'
-
+import Terms from '../pages/TermsConditions'
+import Ppol from '../pages/PrivacyPolicy'
 import {Sdata, Heading_data, Pdata, Headerdata, Headerdata_left, Headerdata_detail} from '../Data/Home_Data'
 
 
@@ -101,7 +102,10 @@ function Home() {
       l1 = {Headerdata_detail[2].l1}
       /> */}
 
-      <Contactus2/>
+      {/* <Contactus2/> */}
+      {/* <Terms/> */}
+      <Ppol/>
+
     </div>
      
       
